@@ -1,0 +1,13 @@
+{
+  "name": "leetgds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:service": "cd service; poetry run uvicorn leetgds.main:app --reload --port 4632 --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
